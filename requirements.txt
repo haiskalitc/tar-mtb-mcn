@@ -1,0 +1,7 @@
+beautifulsoup4>=4.12,<5
+markdownify>=0.13,<2
+openai>=1.99,<3
+python-dotenv>=1.0,<2
+requests>=2.32,<3
+python-slugify>=8.0,<9
+pytest>=8,<9

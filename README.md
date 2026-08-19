@@ -53,7 +53,7 @@ The sync container runs once and exits. The server cron job executes it daily.
 I did not have previous hands-on experience with Vector Store chunking, so based on my research, I chose the default OpenAI File Search strategy:
 - Maximum chunk size: 800 tokens
 - Chunk overlap: 400 tokens
-OpenAI automatically chunks, embeds, and indexes each Markdown file. The overlap helps preserve context between adjacent chunks. This default strategy is sufficient for the scope of this take-home test.
+OpenAI automatically chunks, embeds, and indexes each Markdown file. The overlap helps preserve context between adjacent chunks. This default strategy is sufficient for the scope of this test.
 ## Daily Job Logs
 The cron job runs every day at 5:00 AM UTC. You can check the logs here:
 - [Application log](http://124.158.12.146:9000/app.log)
